@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
 方便快捷的弹出框.
                        DESC
 
-  s.homepage         = 'https://gitlab.com/WZiOS/WZAlertViewController'
+  s.homepage         = 'https://github.com/WZLYiOS/WZAlertViewController'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuxiaobin' => '327847390@qq.com' }
-  s.source           = { :git => 'https://gitlab.com/WZiOS/WZAlertViewController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/WZLYiOS/WZAlertViewController.git', :tag => s.version.to_s }
 
   s.requires_arc = true
   s.static_framework = true
