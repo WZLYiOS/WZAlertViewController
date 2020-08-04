@@ -1,0 +1,11 @@
+framework module WZAlertViewController {
+  umbrella header "WZAlertViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WZAlertViewController.Swift {
+    header "WZAlertViewController-Swift.h"
+    requires objc
+}

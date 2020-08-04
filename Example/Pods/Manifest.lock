@@ -1,0 +1,18 @@
+PODS:
+  - WZAlertViewController (2.1.0):
+    - WZAlertViewController/Source (= 2.1.0)
+  - WZAlertViewController/Source (2.1.0)
+
+DEPENDENCIES:
+  - WZAlertViewController (from `../`)
+
+EXTERNAL SOURCES:
+  WZAlertViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WZAlertViewController: 49c38ea0a622e1d77ba914c32baa14cfbeb4b5a3
+
+PODFILE CHECKSUM: 7c417f3e2e8a872866a32484a9e29bf24be45539
+
+COCOAPODS: 1.8.4

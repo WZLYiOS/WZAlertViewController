@@ -1,0 +1,6 @@
+framework module Pods_WZAlertViewController_Example {
+  umbrella header "Pods-WZAlertViewController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
