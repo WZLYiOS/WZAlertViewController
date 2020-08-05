@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZAlertViewController'
-  s.version          = '2.2.0'
+  s.version          = '2.2.1'
   s.summary          = '方便快捷的弹出框'
 
 
