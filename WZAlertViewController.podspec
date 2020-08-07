@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WZAlertViewController'
-  s.version          = '2.2.1'
+  s.version          = '2.2.2'
   s.summary          = '方便快捷的弹出框'
 
 
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   end
 
 
-  s.subspec 'Binary' do |ss|
-    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZAlertViewController.framework"
-    ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
-  end
+#  s.subspec 'Binary' do |ss|
+#    ss.vendored_frameworks = "Carthage/Build/iOS/Static/WZAlertViewController.framework"
+#    ss.user_target_xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)' }
+#  end
 end
